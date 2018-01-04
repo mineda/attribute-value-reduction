@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Grouping {
+public class SymbolicAttributeValueReducer implements AttributeValueReducer {
 	
 	public GroupedAttribute group(Attribute attribute, String classValue) {
 		Float originalInformationGain = attribute.getInformationGain();

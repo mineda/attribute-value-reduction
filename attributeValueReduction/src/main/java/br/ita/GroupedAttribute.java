@@ -19,7 +19,10 @@ public class GroupedAttribute extends Attribute {
 	}
 	
 	public String getGroup(String value) {
-		return translation.get(value);
+		if(translation.containsKey(value)) {
+			return translation.get(value);
+		}
+		return value;
 	}
 	
 	public void addTranslation(String value, String group) {
