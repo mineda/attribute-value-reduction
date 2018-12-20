@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.ita</groupId>
-  <artifactId>attributeValueReduction</artifactId>
+  <artifactId>attribute-value-reduction</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>attributeValueReduction</name>
+  <name>attribute-value-reduction</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -17,7 +17,7 @@
   </dependencies>
   
   <build>
-    <finalName>attributeValueReduction</finalName>
+    <finalName>attribute-value-reduction</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

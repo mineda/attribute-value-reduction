@@ -1,0 +1,9 @@
+br\ita\AttributeValueReducer.class
+br\ita\Attribute.class
+br\ita\App.class
+br\ita\FileAttributeValueReducer.class
+br\ita\Main.class
+br\ita\SymbolicAttributeValueReducer.class
+br\ita\GroupedAttribute.class
+br\ita\SupervisedRatio.class
+br\ita\UnreachableInformationLossException.class
